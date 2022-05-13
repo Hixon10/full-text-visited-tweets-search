@@ -9,7 +9,7 @@
   "manifest_version": 2,
   "name": "TweetsFullTextSearch",
   "version": "1.1",
-  "homepage_url": "https://github.com",
+  "homepage_url": "https://github.com/Hixon10/full-text-visited-tweets-search",
   "icons": {
     "48": "icons/border-48.png"
   },
