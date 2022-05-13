@@ -87,5 +87,9 @@ SearchServiceName = tweetssearch
 4. Deploy Azure function `SaveTweetsAzureFuntion` to your Azure subscription. 
 5. Set Azure function URL in `firefox-addon/script.js` - `SAVE_NEW_TWEETS_INTERVAL_IN_MS`.
 6. Build Firefox extension `firefox-addon`.
+```
+web-ext build
+web-ext sign --api-key YOUR_KEY --api-secret YOUR_SECRET
+```
 7. Use twitter as usual. 
 8. Open azure portal, go to your search service and use `Search explorer` to search something in your visited tweets.  
